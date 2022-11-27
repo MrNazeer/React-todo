@@ -1,0 +1,37 @@
+.input-container {
+    padding: 25px;
+
+    .form {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .todo-input {
+        width: 300px;
+        height: 40px;
+        background-color: black;
+        border: 1px solid burlywood;
+        border-radius: 5px;
+        color: aliceblue;
+        font-size: 1.2rem;
+        outline: none;
+        transition: all .5s;
+
+        // &:focus {
+        //     width: 300px;
+        // }
+
+    }
+
+    .todo-btn {
+        width: 80px;
+        height: 45px;
+        margin-left: 10px;
+        border-radius: 5px;
+        background-color: burlywood;
+        font-size: 1.2rem;
+        font-weight: 800;
+    }
+
+}
